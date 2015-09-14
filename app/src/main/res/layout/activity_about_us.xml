@@ -1,0 +1,323 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:fontFamily="sans-serif-light"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgLogo"
+                    android:background="@drawable/game_logo"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/game_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tvAchieve"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/app_title"
+                    android:text="@string/app_title"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@+id/imgLogo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp" />
+
+                <ImageButton
+                    android:id="@+id/btnFb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/facebook"
+                    android:layout_below="@+id/tvAchieve"
+                    android:layout_toLeftOf="@+id/imgLogo"
+                    android:layout_toStartOf="@+id/imgLogo"
+                    android:layout_marginTop="19dp"
+                    android:contentDescription="@string/btn_fb" />
+
+                <ImageButton
+                    android:id="@+id/btnGplus"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/gplus"
+                    android:contentDescription="@string/btn_gplus"
+                    android:layout_above="@+id/horizontal_line_1"
+                    android:layout_alignRight="@+id/horizontal_line_1"
+                    android:layout_alignEnd="@+id/horizontal_line_1"
+                    android:layout_marginRight="71dp"
+                    android:layout_marginEnd="71dp" />
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/horizontal_line"
+                    android:id="@+id/horizontal_line_1"
+                    android:layout_below="@+id/btnFb"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout2">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/dev"
+                    android:id="@+id/tvDev"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="11dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/fbManh"
+                    android:layout_alignStart="@+id/fbManh" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/fbManh"
+                    android:background="@drawable/img_manh"
+                    android:layout_below="@+id/tvDev"
+                    android:layout_alignLeft="@+id/horizontal_line_2"
+                    android:layout_alignStart="@+id/horizontal_line_2"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/avat_manh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/lucky_luke"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvManh"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignTop="@+id/fbManh"
+                    android:layout_toRightOf="@+id/fbManh"
+                    android:layout_toEndOf="@+id/fbManh"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginStart="29dp" />
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/horizontal_line"
+                    android:id="@+id/horizontal_line_2"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/fbManh"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="15dp"
+
+                android:id="@+id/relativeLayout3">
+
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/horizontal_line"
+                    android:id="@+id/horizontal_line_3"
+                    android:layout_below="@+id/btnFast"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/contributors"
+                    android:id="@+id/tvContributors"
+					android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/horizontal_line_3"
+                    android:layout_alignStart="@+id/horizontal_line_3" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnPie"
+                    android:background="@drawable/img_tu"
+					android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvContributors"
+                    android:layout_alignLeft="@+id/tvContributors"
+                    android:layout_alignStart="@+id/tvContributors"
+                    android:layout_marginTop="15dp"
+                    android:contentDescription="@string/avatar_tu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/quang_tu"
+                    android:fontFamily="sans-serif-light"
+
+                    android:id="@+id/tvAchievement01"
+                    android:layout_alignTop="@+id/btnPie"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnBanana"
+                    android:background="@drawable/img_diep"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnPie"
+                    android:layout_alignLeft="@+id/btnPie"
+                    android:layout_alignStart="@+id/btnPie"
+                    android:contentDescription="@string/avatar_diep" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnFive"
+                    android:background="@drawable/img_hung"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnBanana"
+                    android:layout_alignLeft="@+id/btnBanana"
+                    android:layout_alignStart="@+id/btnBanana"
+                    android:contentDescription="@string/avatar_hung" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnStar"
+                    android:background="@drawable/img_anh"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnFive"
+                    android:layout_alignLeft="@+id/btnFive"
+                    android:layout_alignStart="@+id/btnFive"
+                    android:contentDescription="@string/avatar_tram_anh" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnFast"
+                    android:background="@drawable/img_minh"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnStar"
+                    android:layout_alignLeft="@+id/btnStar"
+                    android:layout_alignStart="@+id/btnStar"
+                    android:contentDescription="@string/avatar_minh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/diep_van"
+					android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement05"
+                    android:layout_alignTop="@+id/btnBanana"
+                    android:layout_alignLeft="@+id/tvAchievement01"
+                    android:layout_alignStart="@+id/tvAchievement01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/viet_huong"
+                    android:id="@+id/tvAchievement10"
+                    android:layout_alignTop="@+id/btnFive"
+					android:fontFamily="sans-serif-light"
+                    android:layout_alignLeft="@+id/tvAchievement05"
+                    android:layout_alignStart="@+id/tvAchievement05" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/tram_anh"
+					android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement20"
+                    android:layout_alignTop="@+id/btnStar"
+                    android:layout_alignLeft="@+id/tvAchievement10"
+                    android:layout_alignStart="@+id/tvAchievement10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/duc_minh"
+					android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement30"
+                    android:layout_alignTop="@+id/btnFast"
+                    android:layout_alignLeft="@+id/tvAchievement20"
+                    android:layout_alignStart="@+id/tvAchievement20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/art"
+                    android:id="@+id/tvArt"
+                    android:textSize="12sp"
+					android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement01"
+                    android:layout_alignLeft="@+id/tvAchievement01"
+                    android:layout_alignStart="@+id/tvAchievement01"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/tester"
+                    android:id="@+id/tvTester"
+                    android:textSize="12sp"
+					android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement05"
+                    android:layout_alignLeft="@+id/tvAchievement05"
+                    android:layout_alignStart="@+id/tvAchievement05"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/achievement"
+                    android:id="@+id/tvAchievement"
+                    android:textSize="12sp"
+					android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement10"
+                    android:layout_alignLeft="@+id/tvAchievement10"
+                    android:layout_alignStart="@+id/tvAchievement10"
+                    android:layout_marginTop="5dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

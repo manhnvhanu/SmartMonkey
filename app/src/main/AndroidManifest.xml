@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luckyluke.smartmonkey" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash screen -->
+
+        <activity
+            android:name=".splash_screen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game_play"
+            android:label="@string/title_activity_game_play"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_input"
+            android:label="@string/title_activity_user_input"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Achievement"
+            android:label="@string/title_activity_achievement" >
+        </activity>
+    </application>
+
+</manifest>

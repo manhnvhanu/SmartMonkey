@@ -1,0 +1,330 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:fontFamily="sans-serif-light"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imgLogo"
+                    android:background="@drawable/game_logo"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/game_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/tvAchieve"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/app_title"
+                    android:text="@string/achievement_list"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@+id/imgLogo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp" />
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/horizontal_line"
+                    android:id="@+id/horizontal_line_2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/tvAchieve" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingBottom="15dp"
+
+                android:id="@+id/relativeLayout3">
+
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/horizontal_line"
+                    android:id="@+id/horizontal_line_1"
+                    android:layout_below="@+id/btnUnstopale"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnPie"
+                    android:background="@drawable/easy_as_pie"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="15dp"
+                    android:contentDescription="@string/avatar_tu"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/horizontal_line_1"
+                    android:layout_alignStart="@+id/horizontal_line_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point01"
+                    android:fontFamily="sans-serif-light"
+
+                    android:id="@+id/tvAchievement01"
+                    android:layout_alignTop="@+id/btnPie"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnBanana"
+                    android:background="@drawable/banastic"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnPie"
+                    android:layout_alignLeft="@+id/btnPie"
+                    android:layout_alignStart="@+id/btnPie"
+                    android:contentDescription="@string/avatar_diep" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnFive"
+                    android:background="@drawable/five_th_grader"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnBanana"
+                    android:layout_alignLeft="@+id/btnBanana"
+                    android:layout_alignStart="@+id/btnBanana"
+                    android:contentDescription="@string/avatar_hung" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnStar"
+                    android:background="@drawable/monkey_star"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnFive"
+                    android:layout_alignLeft="@+id/btnFive"
+                    android:layout_alignStart="@+id/btnFive"
+                    android:contentDescription="@string/avatar_tram_anh" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnFast"
+                    android:background="@drawable/fast_n_furious"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnStar"
+                    android:layout_alignLeft="@+id/btnStar"
+                    android:layout_alignStart="@+id/btnStar"
+                    android:contentDescription="@string/avatar_minh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point05"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement05"
+                    android:layout_alignTop="@+id/btnBanana"
+                    android:layout_alignLeft="@+id/tvAchievement01"
+                    android:layout_alignStart="@+id/tvAchievement01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point10"
+                    android:id="@+id/tvAchievement10"
+                    android:layout_alignTop="@+id/btnFive"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignLeft="@+id/tvAchievement05"
+                    android:layout_alignStart="@+id/tvAchievement05" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point20"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement20"
+                    android:layout_alignTop="@+id/btnStar"
+                    android:layout_alignLeft="@+id/tvAchievement10"
+                    android:layout_alignStart="@+id/tvAchievement10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point30"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement30"
+                    android:layout_alignTop="@+id/btnFast"
+                    android:layout_alignLeft="@+id/tvAchievement20"
+                    android:layout_alignStart="@+id/tvAchievement20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1 point"
+                    android:id="@+id/tvArt"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement01"
+                    android:layout_alignLeft="@+id/tvAchievement01"
+                    android:layout_alignStart="@+id/tvAchievement01"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/point05_explained"
+                    android:id="@+id/tvTester"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement05"
+                    android:layout_alignLeft="@+id/tvAchievement05"
+                    android:layout_alignStart="@+id/tvAchievement05"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="10 points"
+                    android:id="@+id/tvAchievement"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement10"
+                    android:layout_alignLeft="@+id/tvAchievement10"
+                    android:layout_alignStart="@+id/tvAchievement10"
+                    android:layout_marginTop="5dp" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnChampion"
+                    android:background="@drawable/chimpion"
+                    android:layout_marginTop="15dp"
+                    android:contentDescription="@string/avatar_minh"
+                    android:layout_below="@+id/btnFast"
+                    android:layout_alignRight="@+id/btnFast"
+                    android:layout_alignEnd="@+id/btnFast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point50"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement50"
+                    android:layout_alignTop="@+id/btnChampion"
+                    android:layout_alignLeft="@+id/tvAchievement30"
+                    android:layout_alignStart="@+id/tvAchievement30" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btnUnstopale"
+                    android:background="@drawable/unstopable"
+                    android:layout_marginTop="18dp"
+                    android:contentDescription="@string/avatar_minh"
+                    android:layout_below="@+id/btnChampion"
+                    android:layout_alignLeft="@+id/btnChampion"
+                    android:layout_alignStart="@+id/btnChampion" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/point100"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/tvAchievement100"
+                    android:layout_alignTop="@+id/btnUnstopale"
+                    android:layout_alignLeft="@+id/tvAchievement50"
+                    android:layout_alignStart="@+id/tvAchievement50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Get 20 points"
+                    android:id="@+id/textView4"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement20"
+                    android:layout_alignLeft="@+id/tvAchievement20"
+                    android:layout_alignStart="@+id/tvAchievement20"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Get 30 points"
+                    android:id="@+id/textView5"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement30"
+                    android:layout_alignLeft="@+id/tvAchievement30"
+                    android:layout_alignStart="@+id/tvAchievement30"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Chimp + Champion"
+                    android:id="@+id/textView6"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement50"
+                    android:layout_alignLeft="@+id/tvAchievement50"
+                    android:layout_alignStart="@+id/tvAchievement50"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="You are amazing!"
+                    android:id="@+id/textView7"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_below="@+id/tvAchievement100"
+                    android:layout_alignLeft="@+id/tvAchievement100"
+                    android:layout_alignStart="@+id/tvAchievement100"
+                    android:layout_marginTop="6dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monkey</string>
+    <string name="app_title">Are You Smarter Than A Monkey?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="score">Steps You made:</string>
+    <string name="game_title">Are You Smarter than Monkey?</string>
+    <string name="int_score">20</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_game_play">game_play</string>
+    <string name="title_activity_user_input">user_input</string>
+    <string name="btnStart">START</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="share">SHARE</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="leader_board">LEADER BOARD</string>
+    <string name="highScore">Best Score:</string>
+    <string name="currentScore">Steps You Made:</string>
+    <string name="logoDescription">This is game\'s logo</string>
+    <string name="c">This is game\'s logo</string>
+    <string name="cs">This is game\'s logo</string>
+    <string name="okString">OK</string>
+    <string name="cancelString">CANCEL</string>
+    <string name="slogan">LET\'S PROVE YOU ARE SMARTER THAN A MONKEY…</string>
+    <string name="title_activity_about_us">about_us</string>
+    <string name="btn_ok">OK</string>
+    <string name="title_activity_leader_board">LeaderBoard</string>
+    <string name="signin_other_error">Error to sign-in</string>
+    <string name="monkey">Monkey</string>
+    <string name="reset_button">reset Input</string>
+    <string name="signin_failure">Fail to sign-in</string>
+    <string name="wrongAnswer">Loser!</string>
+    <string name="correctAnswer">Well Done!</string>
+
+
+    <string name="symbol_achievement">Symbol of achievement</string>
+
+    <!-- String Achievement -->
+
+    <string name="btn_achievement">Achievement</string>
+
+    <string name="achievement_list">Achievement</string>
+    <string name="point01">Easy As Pie</string>
+
+    <string name="point05">Banastic!</string>
+    <string name="point05_explained">Banana + Fantastic</string>
+
+    <string name="point10">Like a 5th grader</string>
+
+    <string name="point20">Monkey Star</string>
+
+    <string name="point30">FastnFurious</string>
+
+    <string name="point50">Chimpion!</string>
+    <string name="point50_explained">Chimp + Champion</string>
+
+    <string name="point100">Unstopable</string>
+    <string name="title_activity_achievement">Achievement</string>
+
+
+    <string name="game_logo">Game Logo</string>
+    <string name="btn_fb">Facebook Button</string>
+    <string name="btn_gplus">Google Plus Button</string>
+    <string name="dev">Developer</string>
+    <string name="avat_manh">Manh Avatar</string>
+    <string name="lucky_luke">Nguyen Van Manh</string>
+    <string name="contributors">Contributors</string>
+    <string name="avatar_tu">Avatar Tu</string>
+    <string name="quang_tu">Ta Quang Tu</string>
+    <string name="avatar_diep">avatar Diep</string>
+    <string name="avatar_hung">avatar Hung</string>
+    <string name="avatar_tram_anh">avatar Tram Anh</string>
+    <string name="avatar_minh">avatar Minh</string>
+    <string name="diep_van">Luu Thi Ngoc Diep</string>
+    <string name="viet_huong">Nguyen Viet Hung</string>
+    <string name="tram_anh">Do Thi Tram Anh</string>
+    <string name="duc_minh">Nguyen Duc Minh</string>
+    <string name="art">Additional Art</string>
+    <string name="tester">Tester</string>
+    <string name="achievement">Achievement &amp; Additional Art</string>
+
+
+
+
+</resources>

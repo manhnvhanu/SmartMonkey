@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_background">#eeeeee</color>
+    <color name="main_layout">#FBF8EF</color>
+    <color name="game_play_layout">#f3e5f5</color>
+    <color name="user_input_dialog">#cfd8dc</color>
+    <color name="about_us_layout">#EEEEEE</color>
+    <color name="splash_layout">#92D050</color>
+    <color name="app_title">#000000</color>
+    <color name="horizontal_line">#009688</color>
+    <color name="dialog_title">#4caf50</color>
+
+
+    <color name="NiceButtonStartColor">#3f51b5</color>
+    <color name="NiceButtonEndColor">#3f51b5</color>
+    <color name="NiceButtonDisabledStartColor">#3f51b5</color>
+    <color name="NiceButtonDisabledEndColor">#3f51b5</color>
+    <color name="NiceButtonBorderColor">#3f51b5</color>
+</resources>
